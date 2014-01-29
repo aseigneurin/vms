@@ -1,3 +1,7 @@
+if [ ! -d /home/vagrant ]; then
+  useradd --create-home -p vagrant vagrant
+fi
+
 mkdir /home/vagrant/.ssh
 chmod 700 /home/vagrant/.ssh
 cd /home/vagrant/.ssh
