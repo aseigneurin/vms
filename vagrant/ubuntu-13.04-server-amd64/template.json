@@ -7,9 +7,7 @@
         "scripts/apt.sh",
         "scripts/vbox.sh",
         "scripts/sudo.sh",
-        "scripts/ruby.sh",
-        "scripts/chef.sh",
-        "scripts/puppet.sh",
+        "scripts/nodejs.sh",
         "scripts/vagrant.sh",
         "scripts/cleanup.sh"
       ],
