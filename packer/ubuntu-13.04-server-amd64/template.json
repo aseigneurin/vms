@@ -17,7 +17,10 @@
       "type": "shell",
       "only": ["virtualbox-iso"],
       "execute_command": "echo 'vagrant'|sudo -S sh '{{.Path}}'",
-      "script": "scripts/vbox.sh"
+      "scripts": [
+        "scripts/vbox.sh",
+        "scripts/vagrant.sh"
+      ]
     },
     {
       "type": "shell",
@@ -25,7 +28,6 @@
       "scripts": [
         "scripts/sudo.sh",
         "scripts/nodejs.sh",
-        "scripts/vagrant.sh",
         "scripts/cleanup.sh"
       ]
     }
