@@ -85,5 +85,10 @@
     }
   ],
 
-  "post-processors": ["vagrant"]
+  "post-processors": [
+    {
+      "type": "vagrant",
+      "keep_input_artifact": true
+    }
+  ]
 }
